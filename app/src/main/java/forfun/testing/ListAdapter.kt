@@ -22,7 +22,8 @@ class ListAdapter(val context : Context, val info : List<ApiObject>) : RecyclerV
 
     override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
 //        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-        holder?.itemView?.adpaterText?.text ="Success"
+//        holder?.itemView?.adpaterText?.text ="Success"
+        holder?.itemView?.adpaterText?.text = MainActivity.apiData!![position].name
     }
 
 

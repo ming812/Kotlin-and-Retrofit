@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_java"
+        android:title="@string/title_java" />
+
+    <item
+        android:id="@+id/navigation_kotlin"
+        android:title="@string/title_kotlin" />
+
+    <item
+        android:id="@+id/navigation_swift"
+        android:title="@string/title_swift" />
+</menu>

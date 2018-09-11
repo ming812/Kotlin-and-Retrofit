@@ -11,7 +11,7 @@ import java.util.logging.Logger
 
 class MainActivity : AppCompatActivity() , ApiDataCallBack  {
     override fun CallApiData() {
-        loadFragmentJava()
+//        loadFragmentJava()
     }
     companion object {
          open var apiData : List<ApiObject>? = null
